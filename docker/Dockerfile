@@ -10,5 +10,4 @@ COPY DoctorInfo.jar .
 # Run the jar file
 ENTRYPOINT ["java", "-jar", "DoctorInfo.jar"]
 
-EXPOSE 9090
-EXPOSE 9091
+EXPOSE 9090 9091
