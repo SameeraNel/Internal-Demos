@@ -1,0 +1,9 @@
+apiVersion: core.choreo.dev/v1beta1
+kind: ComponentConfig
+spec:
+  inbound:
+    - name: helthcare-backend
+      context: /
+      type: REST
+      port: 9090
+      networkVisibility: Public
